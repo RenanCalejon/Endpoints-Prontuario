@@ -32,13 +32,13 @@ API da aplicação para controle de consultas medicas.
 
 | campo | tipo | obrigatório | descrição
 |-------|------|:-------------:|----
-| Paciente_id | inteiro | sim | O id do paciente cadastrado
-| Nome | decimal | sim | informação para saber cadastrar o Nome do paciente
-| CPF | inteiro | sim | informação para saber o CPF do paciente
-| Data de nascimento | data | sim | a data em que o paciente nasceu
-| Sexo | inteiro | sim | informação para saber o sexo do paciente
-| E-mail | texto | sim | informação para saber o  e-mail do paciente
-| Telefone | texto | sim | informação para saber o telefone do paciente
+| paciente_id | inteiro | sim | o id do paciente cadastrado
+| nome | texto | sim | informação para saber cadastrar o Nome do paciente
+| cpf | inteiro | sim | informação para saber o CPF do paciente
+| data de nascimento | data | sim | a data em que o paciente nasceu
+| sexo | inteiro | sim | informação para saber o sexo do paciente
+| e-mail | texto | sim | informação para saber o  e-mail do paciente
+| telefone | texto | sim | informação para saber o telefone do paciente
   
   **Exemplo de corpo de requisição**
 
@@ -85,6 +85,10 @@ API da aplicação para controle de consultas medicas.
     CPF: 647.412.643-43,
     Data de nascimento
     Sexo: 'Masculino',
+    E-mail Paciente:{
+        E-mail:'KanyeYeezus@hotmail.com', 
+        E-mail: 'Kanye@gmail.com'
+    }
     E-mail:'KanyeYeezus@hotmail.com',   
     Telefone: (84) 3148-6883 ,
 
@@ -97,12 +101,12 @@ API da aplicação para controle de consultas medicas.
 
 | campo | tipo | obrigatório | descrição
 |-------|------|:-------------:|----
-| Clinico_id | inteiro | sim | O id do clinico cadastrado
-| Nome | decimal | sim | informação para saber cadastrar o Nome do clinico
-| CPF | inteiro | sim | informação para saber o CPF do clinico
-| Data de nascimento | data | sim | a data em que o clinico nasceu
-| E-mail | texto | sim | informação para saber o  e-mail do clinico
-| Especialização | texto | sim | informação para saber a especialização do clinico
+| clinico_id | inteiro | sim | o id do clinico cadastrado
+| nome | texto | sim | informação para saber cadastrar o Nome do clinico
+| cpf | inteiro | sim | informação para saber o CPF do clinico
+| data de nascimento | data | sim | a data em que o clinico nasceu
+| e-mail | texto | sim | informação para saber o  e-mail do clinico
+| especializacao | texto | sim | informação para saber a especialização do clinico
   
   **Exemplo de corpo de requisição**
 
@@ -159,4 +163,5 @@ API da aplicação para controle de consultas medicas.
 }
 
 ```
+
 
