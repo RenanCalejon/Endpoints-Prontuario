@@ -44,13 +44,13 @@ API da aplicação para controle de consultas medicas.
 
 ```js 
 {   
-    Paciente_id : 1,
-    Nome: 'Kanye West',
-    CPF: 647.412.643-43,
-    Data de nascimento : '1985-01-15',
-    Sexo: 'Masculino',
-    E-mail: 'KanyeYeezus@hotmail.com',
-    Telefone: (87) 3148-6883
+    paciente_id : 1,
+    nome: 'Kanye West',
+    cpf: 647.412.643-43,
+    data de nascimento : '1985-01-15',
+    sexo: 'Masculino',
+    e-mail: 'KanyeYeezus@hotmail.com',
+    telefone: (87) 3148-6883
 }
 ```
 
@@ -78,19 +78,19 @@ API da aplicação para controle de consultas medicas.
 ```js 
 
 {
-   Paciente :{
-        Paciente_id : 1,
-        Nome: 'Kanye West',
+   paciente :{
+        paciente_id : 1,
+        nome: 'Kanye West',
 }
-    CPF: 647.412.643-43,
-    Data de nascimento
-    Sexo: 'Masculino',
-    E-mail Paciente:{
-        E-mail:'KanyeYeezus@hotmail.com', 
-        E-mail: 'Kanye@gmail.com'
+    cpd: 647.412.643-43,
+    data de nascimento
+    sexo: 'Masculino',
+    e-mail Paciente:{
+        e-mail:'KanyeYeezus@hotmail.com', 
+        e-mail: 'Kanye@gmail.com'
     }
-    E-mail:'KanyeYeezus@hotmail.com',   
-    Telefone: (84) 3148-6883 ,
+    e-mail:'KanyeYeezus@hotmail.com',   
+    telefone: (84) 3148-6883 ,
 
 }
 ```
@@ -112,13 +112,13 @@ API da aplicação para controle de consultas medicas.
 
 ```js 
 {
-    Clinico_id : 1 ,
-    Nome: 'Doctor Dre',
-    CPF: 311.795.885-17,
-    Data de nascimento : '1970-01-15',
-    Sexo: 'Masculino',
-    E-mail: 'DreWestSide@gmail.com',
-    Especialização: 'Cardiologista'
+    clinico_id : 1 ,
+    nome: 'Doctor Dre',
+    cpf: 311.795.885-17,
+    data de nascimento : '1970-01-15',
+    sexo: 'Masculino',
+    e-mail: 'DreWestSide@gmail.com',
+    especialização: 'Cardiologista'
 }
 ```
 
@@ -147,17 +147,17 @@ API da aplicação para controle de consultas medicas.
 ```js 
 
 {
-   Clinico :{
-        Clinico_id : 1,
-        Nome: 'Doctor Dre',
+   clinico :{
+        clinico_id : 1,
+        nome: 'Doctor Dre',
 }
-    CPF: 311.795.885-17,
-    Data de nascimento : '1970-01-15',
-    Sexo: 'Masculino',
-    E-mail: 'DreWestSide@gmail.com',
-    Especialização:{
-        Especialização: 'Cardiologista'
-        Descrição :'especialidade médica que se ocupa do diagnóstico e tratamento das doenças que acometem o coração e componentes do sistema circulatório'
+    cpf: 311.795.885-17,
+    data de nascimento : '1970-01-15',
+    sexo: 'Masculino',
+    e-mail: 'DreWestSide@gmail.com',
+    especialização:{
+        especialização: 'Cardiologista'
+        descrição :'especialidade médica que se ocupa do diagnóstico e tratamento das doenças que acometem o coração e componentes do sistema circulatório'
     }
 
 }
